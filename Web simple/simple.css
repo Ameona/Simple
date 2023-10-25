@@ -1,0 +1,261 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-position: center;
+}
+/*START ------------------ HEADER*/
+.header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  padding: 20px 100px;
+}
+
+.navbar a {
+  color: #4C5866;
+  font-size: 18px;
+  text-decoration: none;
+  margin-left: 60px;
+}
+/*FINISH ------------------ HEADER*/
+
+
+
+
+
+/*START ------------------ MAIN*/
+/*START --- SECTION-ONE*/
+.section-one {
+  height: 100vh;
+  max-width: 1110px;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+  gap: 125px;
+}
+
+.simple-image {
+  max-width: 445px;
+}
+
+.simple-things h1 {
+  font-size: 60px;
+  color: #4C5866;
+  font-weight: 700;
+}
+
+.simple-things p {
+  font-size: 18px;
+  color: #85859B;
+}
+
+.section-one a {
+  width: 455px;
+  height: 100%;
+  border: 2px solid #7875FE;
+  color: #7875FE;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Poppins',sans-serif;
+  padding: 23px 90px;
+}
+
+.gap {
+  margin-bottom: 40px;
+}
+
+.simple-image {
+  margin-top: 20px;
+}
+/*FINISH --- SECTION-ONE*/
+
+
+
+
+/*START --- SECTION-TWO*/
+.section-two {
+  height: 130vh;
+  margin: -82px auto;
+  background: #EBEBEB;
+  background-size: cover;
+}
+.result-study {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.line-top {
+  margin-top: 90px;
+  border-top: 2px solid #C0C0C0;
+  max-width: 325px;
+}
+.result-v1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+.result-v1 p {
+  color: #85859B;
+}
+.max-white {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 90px auto;
+  max-width: 1110px;
+}
+.white-text {
+  margin-top: -100px;
+}
+.white-text h1 {
+  color: #666666;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  margin-top: 20px;
+}
+.white-text p {
+  color: #85859B;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  margin-top: 5px;
+  text-align: justify;
+}
+/*FINISH --- SECTION-TWO*/
+
+
+
+
+/*START --- SECTION-THREE*/
+.section-three {
+  height: 70vh;
+  background: #fff;
+  background-size: cover;
+}
+.accessories {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 160px auto;
+  max-width: 1110px;
+}
+.accessories-one {
+  max-width: 255px;
+}
+.accessories-one h2 {
+  color: #666666;
+  font-style: 30px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+.accessories-one p {
+  color: #666666;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  max-width: 255px;
+  margin-bottom: 10px;
+}
+.accessories-one span {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 10px;
+}
+.accessories-one a {
+  color: #7875FE;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+
+}
+/*FINISH --- SECTION-THREE*/
+
+
+
+
+/*START --- SECTION-FOUR*/
+.section-four {
+  background: #EBEBEB;
+  padding: 90px 165px;
+  margin: 0px auto;
+}
+.only-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px auto;
+  max-width: 1110px;
+}
+.just-logo {
+  border: 2px solid #C0C0C0;
+  padding: 35px 30px;
+}
+/*FINISH --- SECTION-FOUR*/
+
+
+footer {
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  padding: 20px 167px;
+  background: #4C5866;
+
+}
+
+/*START --- SECTION-FIVE*/
+.section-five {
+  height: 55vh;
+  max-width: 1110px;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+  gap: 125px;
+}
+.sketch-text h2 {
+  display: inline;
+  font-size: 40px;
+  color: #4C5866;
+}
+.sketch-text p {
+  font-size: 18px;
+  color: #85859B;
+}
+.sketch-text a {
+  width: 455px;
+  height: 100%;
+  border: 2px solid #7875FE;
+  color: #7875FE;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Poppins',sans-serif;
+  padding: 23px 90px;
+/*FINISH --- SECTION-FIVE*/
+
+
+
+
+
+/*FINISH ------------------ MAIN*/
